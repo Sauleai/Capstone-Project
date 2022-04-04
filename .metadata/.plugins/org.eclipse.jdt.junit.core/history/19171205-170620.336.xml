@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testNG.LoginTest" tests="9" started="9" failures="0" errors="0" ignored="0">
+  <testsuite name="testNG.LoginTest" time="76.434">
+    <testcase name="testLogin" classname="testNG.LoginTest" time="7.739"/>
+    <testcase name="testLogin" classname="testNG.LoginTest" time="9.26"/>
+    <testcase name="testLogin" classname="testNG.LoginTest" time="8.953"/>
+    <testcase name="testLogin" classname="testNG.LoginTest" time="9.445"/>
+    <testcase name="testLogin" classname="testNG.LoginTest" time="9.465"/>
+    <testcase name="testLogin" classname="testNG.LoginTest" time="8.058"/>
+    <testcase name="testLogin" classname="testNG.LoginTest" time="7.804"/>
+    <testcase name="testLogin" classname="testNG.LoginTest" time="8.916"/>
+    <testcase name="testLogin" classname="testNG.LoginTest" time="6.794"/>
+  </testsuite>
+</testrun>

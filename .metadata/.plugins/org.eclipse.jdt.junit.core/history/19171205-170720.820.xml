@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DataDrivenTesting" tests="9" started="9" failures="0" errors="0" ignored="0">
+  <testsuite name="DataDrivenTesting" time="76.836">
+    <testcase name="testLogin" classname="testNG.LoginTest" time="1.907"/>
+    <testcase name="testLogin" classname="testNG.LoginTest" time="1.595"/>
+    <testcase name="testLogin" classname="testNG.LoginTest" time="1.113"/>
+    <testcase name="testLogin" classname="testNG.LoginTest" time="1.479"/>
+    <testcase name="testLogin" classname="testNG.LoginTest" time="1.539"/>
+    <testcase name="testLogin" classname="testNG.LoginTest" time="1.59"/>
+    <testcase name="testLogin" classname="testNG.LoginTest" time="1.428"/>
+    <testcase name="testLogin" classname="testNG.LoginTest" time="1.161"/>
+    <testcase name="testLogin" classname="testNG.LoginTest" time="1.348"/>
+  </testsuite>
+</testrun>

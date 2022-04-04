@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ParallelExecution" tests="6" started="6" failures="6" errors="0" ignored="0">
+  <testsuite name="ParallelExecution" time="15.611">
+    <testcase name="testOne" classname="testNG.ParallelExecution" time="5.612">
+      <failure>
+      java.lang.NullPointerException
+at utilities.DriverUtility.screenShot(DriverUtility.java:169)
+at testNG.ParallelExecution.testOne(ParallelExecution.java:21)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames
+    </failure>
+    </testcase>
+    <testcase name="testOne" classname="testNG.ParallelExecution" time="5.624">
+      <failure>
+      java.lang.NullPointerException
+at utilities.DriverUtility.screenShot(DriverUtility.java:169)
+at utilities.TestNGListeners.onTestFailure(TestNGListeners.java:94)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+... Removed 7 stack frames
+    </failure>
+    </testcase>
+    <testcase name="testTwo" classname="testNG.ParallelExecution" time="8.52">
+      <failure>
+      java.lang.NullPointerException
+at utilities.DriverUtility.screenShot(DriverUtility.java:169)
+at testNG.ParallelExecution.testTwo(ParallelExecution.java:28)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames
+    </failure>
+    </testcase>
+    <testcase name="testTwo" classname="testNG.ParallelExecution" time="8.531">
+      <failure>
+      java.lang.NullPointerException
+at utilities.DriverUtility.screenShot(DriverUtility.java:169)
+at utilities.TestNGListeners.onTestFailure(TestNGListeners.java:94)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+... Removed 7 stack frames
+    </failure>
+    </testcase>
+    <testcase name="testthree" classname="testNG.ParallelExecution" time="15.585">
+      <failure>
+      java.lang.NullPointerException
+at utilities.DriverUtility.screenShot(DriverUtility.java:169)
+at testNG.ParallelExecution.testthree(ParallelExecution.java:36)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames
+    </failure>
+    </testcase>
+    <testcase name="testthree" classname="testNG.ParallelExecution" time="15.595">
+      <failure>
+      java.lang.NullPointerException
+at utilities.DriverUtility.screenShot(DriverUtility.java:169)
+at utilities.TestNGListeners.onTestFailure(TestNGListeners.java:94)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+... Removed 7 stack frames
+    </failure>
+    </testcase>
+  </testsuite>
+</testrun>

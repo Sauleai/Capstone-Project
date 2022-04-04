@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;JavaBatch2&apos;&#x0D;&#x0A;- Original project: &apos;JavaBatch2&apos;&#x0D;&#x0A;- Original element: &apos;JavaBatch2/src/Selenium.wedriver.basictests&apos;" description="Delete element" element1="/src&lt;Selenium.wedriver.basictests" element2="/src&lt;Selenium.wedriver" element3="/src&lt;Selenium" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1645634109503" subPackages="false" version="1.0"/>
+</session>

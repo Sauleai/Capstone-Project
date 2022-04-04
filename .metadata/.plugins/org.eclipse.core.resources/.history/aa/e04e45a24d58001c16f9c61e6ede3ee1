@@ -1,0 +1,58 @@
+
+public class Question9 {
+
+	public static void main(String[] args) {
+		
+		int[] nums = {1, 121, 321, 5,11,5,11, 5,113, 111, 2, 1 };
+		System.out.println("Largest: " + findLargestValue(nums));
+		System.out.println( "Smallest :" +findSmallestValue(nums));
+		System.out.println( "Sum:" +getSumofValues(nums));
+		System.out.println( "Average:" +getAverageOfValues(nums));
+		
+	
+
+	}
+	public static int findLargestValue(int[]nums) {
+		int largest = nums [0];
+		
+		for(int i=0; i<nums.length; i++) {
+			if(largest <nums[i]) {
+				largest =nums[i];
+			}
+		 
+	
+	}
+		return largest;
+	}
+	
+	public static int findSmallestValue(int [] nums ) {
+		int smallest = nums [0];
+		for (int i= 0; i< nums.length; i++ ) {
+			if(nums[i]<smallest) {
+				smallest = nums [i];
+				
+					}
+			}
+		return smallest;
+	}
+	public static int getSumofValues(int[] nums) {
+		int sum =0;
+		for(int i= 0; i< nums.length; i++) {
+			sum+=nums[i]; 
+			
+		}
+		return sum;
+		}
+	public static double getAverageOfValues( int[] nums) {
+		return getAverageOfValues(nums) / nums.length; 
+		
+		 
+	}
+}   
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+package Selenium.wedriver.basictests;
+
+public class FirstTest {
+
+	public static void main(String[] args) {
+	
+		System.setProperty("webdriver.firefox.marionette",)
+
+	}
+
+}

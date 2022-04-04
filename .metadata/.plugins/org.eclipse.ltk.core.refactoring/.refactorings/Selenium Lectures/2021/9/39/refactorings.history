@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;basics.WebDriverManager&apos; to &apos;WebDriverManagerTest&apos;&#x0D;&#x0A;- Original project: &apos;Selenium Lectures&apos;&#x0D;&#x0A;- Original element: &apos;basics.WebDriverManager&apos;&#x0D;&#x0A;- Renamed element: &apos;basics.WebDriverManagerTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;WebDriverManager&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;basics{WebDriverManager.java[WebDriverManager" matchStrategy="1" name="WebDriverManagerTest" qualified="false" references="true" similarDeclarations="false" stamp="1632496332027" textual="false" version="1.0"/>
+</session>

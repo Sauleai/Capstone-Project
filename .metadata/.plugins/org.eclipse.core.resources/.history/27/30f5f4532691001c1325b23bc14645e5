@@ -1,0 +1,16 @@
+
+public class DataTypes 
+{
+	
+	public static void main(String[] args)
+	{
+		int i=10;
+		double d=10.4555;
+		char c='A';
+		String s="welcome";
+		boolean b=true;
+		System.out.println(i);
+	
+		
+}
+}

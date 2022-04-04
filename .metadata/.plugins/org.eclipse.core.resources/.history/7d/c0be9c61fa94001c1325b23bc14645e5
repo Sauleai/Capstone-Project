@@ -1,0 +1,23 @@
+package basics;
+
+public class ChromeBrowser {
+
+	public static void main(String[] args) {
+		
+		//step 1 we need to open chrome browser
+		//step 2 we need to pass https://tekschool.us/
+		//step 3 tek school website should be open
+		//-----------------------------------------------------------
+		
+		//1. We need to set up System.setProperty("key", "value")
+		//key ("webdriver.chrome.driver")
+		//value(path to chromedriver.exe)
+		//for windows we will use //for path defining
+		
+		System.setProperty("webdriver.chrome.driver",".\\drivers\\chromedriver.exe" ); 
+		
+		
+		
+	}
+
+}

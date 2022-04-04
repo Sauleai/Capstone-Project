@@ -1,0 +1,26 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public static void main(String[] args) {
+		System.out.println("Counting Chars:" + countChars("This is a test of a test"));
+public static Map<Character, Integer> countChars(String str) {
+		Map<Character, Integer> chars = new HashMap<Character, Integer>();
+		
+		for (int i= 0; i < str.length(); i++) {
+			if(chars.containsKey(str.charAt(i))) {
+				chars.put(str.charAt(i), chars.get(str.charAt(i)) +1);
+				
+			} else {
+				chars.put(str.charAt(i), 1);
+				
+			}
+			
+		}
+		
+		return chars;
+		
+	}
+
+	}
+
+
